@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #202E3D;
+}
+.container{
+    background-color: #4A9CFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 3px;
+    width: 50vw;
+    height: 70vh;
+    position: absolute;
+    /* min-width: 700px; */
+
+
+}
+.innerDiv{
+    background-color: rgb(180, 194, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 80%;
+    border-radius: 5px;
+    width: 80%;
+    /* position: relative; */
+    /* min-width: 500px; */
+}
+.share-btn{
+    position: absolute;
+    top: 0;
+    
+    /* left: 55%; */
+    right: 0;
+    
+}
+.text{
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-family: 'WindSong', cursive;
+    color: #000;
+    /* justify-content: center;
+    align-items: center; */
+}
+.newQuotebtn{
+    width: 100%;
+    /* margin-top: 150px; */
+
+    
+}
+.quotes{
+    margin-bottom: 0;
+    text-align: center;
+    font-weight:600;
+}
+.author::before{
+    content: "~By ";
+
+}
+.author{
+    font-weight: bolder;
+}
+.start-quote{
+    filter: opacity(0.5);
+}
